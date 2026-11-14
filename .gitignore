@@ -1,0 +1,16 @@
+# Local runtime logs and legacy exports
+data/*.log
+data/*.txt
+!data/.gitkeep
+
+# PHP and server logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/

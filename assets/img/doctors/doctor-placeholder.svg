@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Doctor photo coming soon">
+  <rect width="800" height="1000" fill="#e8f1f0"/>
+  <circle cx="400" cy="355" r="145" fill="#b7d3d0"/>
+  <path d="M150 870c0-178 112-315 250-315s250 137 250 315v50H150z" fill="#b7d3d0"/>
+  <text x="400" y="945" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="4" fill="#5f7f7b">PHOTO COMING SOON</text>
+</svg>

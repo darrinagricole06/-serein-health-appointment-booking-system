@@ -1,0 +1,4 @@
+# Uploaded doctor photos are images only. Never execute scripts here.
+<FilesMatch "\.(php|phtml|phar|cgi|pl|py|sh)$">
+    Require all denied
+</FilesMatch>
