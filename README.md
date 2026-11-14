@@ -101,6 +101,7 @@ Appointment Booking System/
 │   └── auth.php               # Sessions and role checks
 ├── database/
 │   ├── serein_health.sql      # Full schema + seed accounts
+│   ├── serein_health_full_export.sql # Complete database export with current data
 │   ├── task5_advanced.sql     # Upgrade script for older databases
 │   └── task5_doctor_photos.sql # Adds doctor photos to an existing database
 ├── data/                      # Legacy text logs (no longer used)
@@ -133,6 +134,8 @@ Appointment Booking System/
 - Both handlers validate input and write to MySQL using MySQLi prepared statements.
 - Database schema: `database/serein_health.sql` creates `doctors`, `appointments`,
   `newsletter_subscribers` and `users` in the `serein_health` database.
+- A complete phpMyAdmin-compatible export of the current database is available at
+  `database/serein_health_full_export.sql` (structure and data).
 - Existing databases can be upgraded with `database/task5_advanced.sql`.
 - Database connection: `includes/db.php` (MySQL at `127.0.0.1:3306`).
 - Login and logout: `login.php`, `logout.php`, with helpers in `includes/auth.php`.
