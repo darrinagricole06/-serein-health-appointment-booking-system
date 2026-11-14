@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 14, 2026 at 12:29 PM
+-- Generation Time: Nov 14, 2026 at 12:38 PM
 -- Server version: 8.0.40
 -- PHP Version: 8.3.28
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `serein_health`
 --
+CREATE DATABASE IF NOT EXISTS `serein_health` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE `serein_health`;
 
 -- --------------------------------------------------------
 
