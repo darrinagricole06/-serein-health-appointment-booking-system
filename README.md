@@ -102,6 +102,7 @@ Appointment Booking System/
 ├── database/
 │   ├── serein_health.sql      # Full schema + seed accounts
 │   ├── serein_health_full_export.sql # Complete database export with current data
+│   ├── serein_health_phpmyadmin_export.sql # Export generated directly from phpMyAdmin
 │   ├── task5_advanced.sql     # Upgrade script for older databases
 │   └── task5_doctor_photos.sql # Adds doctor photos to an existing database
 ├── data/                      # Legacy text logs (no longer used)
@@ -136,6 +137,8 @@ Appointment Booking System/
   `newsletter_subscribers` and `users` in the `serein_health` database.
 - A complete phpMyAdmin-compatible export of the current database is available at
   `database/serein_health_full_export.sql` (structure and data).
+- An export generated directly from the phpMyAdmin Export tab is available at
+  `database/serein_health_phpmyadmin_export.sql`.
 - Existing databases can be upgraded with `database/task5_advanced.sql`.
 - Database connection: `includes/db.php` (MySQL at `127.0.0.1:3306`).
 - Login and logout: `login.php`, `logout.php`, with helpers in `includes/auth.php`.
